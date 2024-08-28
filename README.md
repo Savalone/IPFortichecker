@@ -3,5 +3,7 @@ Herramienta para analizar logs exportados de fortigate y analizar las ip mediant
 
 # Uso
 
-python3 fortichecker.py <Archivo_de_log> -o <Output> -k <API_AbuseIP>
+> `python3 fortichecker.py <Archivo_de_log> -o <Output> -k <API_AbuseIP>`
+
+
 
