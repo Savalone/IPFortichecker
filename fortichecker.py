@@ -89,7 +89,7 @@ def save_malicious_ips(malicious_ips, raw_output_file):
         sys.exit(1)
 
 def main():
-    default_api = 'fe8020c7f578bde9a73241b0b2b1353cf4c704101f259b89238fa87b3fc172587978385824ab9408'  
+    default_api = 'API_KEY'  
     parser = argparse.ArgumentParser(description='Analiza un archivo de log para IPs maliciosas.')
     parser.add_argument('log_file', help='Archivo de log a analizar')
     parser.add_argument('-o', '--output', help='Archivo de salida raw para IPs maliciosas', default='malicious_ip_summary')
