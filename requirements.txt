@@ -1,0 +1,7 @@
+re
+sys
+requests
+argparse
+tqdm
+colorama
+os
