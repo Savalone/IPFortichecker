@@ -5,3 +5,4 @@ argparse
 tqdm
 colorama
 os
+csv
